@@ -1,4 +1,5 @@
+import { Token } from './token.model';
+
 export interface Wallet {
-    id: number;
-    value: number;
+    tokens: Token[];
 }
