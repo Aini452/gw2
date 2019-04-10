@@ -1,7 +1,8 @@
-<div class="card" style="width: 15rem; margin : 10px;" >
+<div class="card" style="width: 16rem; margin : 10px;" >
     <img  *ngIf="tokenCurrencie" style="width : 100px; height: 100px" src="{{tokenCurrencie.icon}}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title" *ngIf="tokenCurrencie">{{tokenCurrencie.name}}</h5>
-      <p class="card-text">{{wallet.value}}</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <p class="card-title" *ngIf="tokenCurrencie">{{tokenCurrencie.description}}</p>
+      <p class="card-text"> <strong>Vous disposez de :</strong>  <br>{{wallet.value}} {{tokenCurrencie.name}} </p>
+      
     </div>
