@@ -12,6 +12,7 @@ import { CharactersComponent } from './characters/characters.component';
 import { CharacterComponent } from './character/character.component';
 import { WalletComponent } from './wallet/wallet.component';
 import { TokenComponent } from './token/token.component';
+import { ListCharactersComponent } from './list-characters/list-characters.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TokenComponent } from './token/token.component';
     CharactersComponent,
     CharacterComponent,
     WalletComponent,
-    TokenComponent
+    TokenComponent,
+    ListCharactersComponent
   ],
   imports: [
     BrowserModule,

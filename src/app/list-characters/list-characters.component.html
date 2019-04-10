@@ -1,0 +1,5 @@
+<div *ngIf="charactersTab">
+  <div *ngFor="let charac of charactersTab" (click)=sendName(charac)>
+    <p>{{charac}}</p>
+  </div>
+</div>

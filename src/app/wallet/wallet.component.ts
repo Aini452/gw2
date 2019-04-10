@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { WalletService } from '../services/wallet.service';
 
 import { Wallet } from '../model/wallet.model';
-import { Currencie } from 'gw2/src/app/model/currencie.model';
 
 @Component({
   selector: 'app-wallet',

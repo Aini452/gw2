@@ -12,7 +12,7 @@ export class AccountService {
 
   constructor(public http: HttpClient) { }
 
-  getAccount(): Observable<Account>{
+  getAccount(): Observable<Account> {
     return this.http.get<Account>(this.URL_API +
       '?access_token=' + this.URL_KEY);
   }

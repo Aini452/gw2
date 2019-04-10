@@ -1,3 +1,8 @@
-<p>
-  characters works!
-</p>
+<div class="row">
+  <div class="col-3">
+    <app-list-characters (nameEmitter)="getNameCharacter($event)"></app-list-characters>
+  </div>
+  <div class="col-9">
+    <app-character *ngIf="character" [character]="character"></app-character>
+  </div>
+</div>
