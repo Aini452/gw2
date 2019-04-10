@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { CharactersComponent } from './characters/characters.component';
 import { CharacterComponent } from './character/character.component';
 import { WalletComponent } from './wallet/wallet.component';
+import { TokenComponent } from './token/token.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WalletComponent } from './wallet/wallet.component';
     HomeComponent,
     CharactersComponent,
     CharacterComponent,
-    WalletComponent
+    WalletComponent,
+    TokenComponent
   ],
   imports: [
     BrowserModule,

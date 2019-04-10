@@ -1,3 +1,5 @@
-<p>
-  wallet works!
-</p>
+<div class="container">
+  <div class="row">
+    <app-token *ngFor="let token of wallets" [wallet]='token'></app-token>
+  </div>
+</div>
